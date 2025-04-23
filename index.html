@@ -1,11 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    <h1>HELLO!</h1>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css">
+  </link>
+  <title>Document</title>
+
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="btn-holder">
+      <div class="add-container">
+        <button type="button" id="add-todo-btn">Add</button>
+        <input type="text" placeholder="Add item" id="add-input"></input>
+      </div>
+      <div class="filters">
+        <button type="button" id="all-filter">All</button>
+        <button type="button" id="active-filter">Active</button>
+        <button type="button" id="completed-filter">Completed</button>
+      </div>
+    </div>
+   
+    <div class="todo"></div>
+  </div>
+</body>
+<script src="main.js" type="module"></script>
+
 </html>
