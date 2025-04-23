@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100vh;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  height: 100%;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  max-height: 500px;
+  height: 100%;
+  align-items: center;
+  border: 1px solid black;
+  padding: 1rem;
+}
+
+.todo {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  overflow-y: scroll;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.btn {
+  display: block;
+  max-width: 5rem;
+  width: 100%;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+.btn-holder {
+  display: flex;
+  gap: 1rem;
+  justify-self: center;
+  margin: 0.5rem 2rem;
+}
+
+.add-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.text {
+  width: 100%;
+  max-width: 10rem;
+  word-wrap: break-word;
+}
+
+.filters {
+  display: flex;
+  gap: 10px;
+}
+
+.filters button {
+  display: block;
+  max-width: 5rem;
+  width: 100%;
+}
